@@ -671,7 +671,7 @@ aside .box-container article .imgae img {
 /* Start Figure */
 .figure {
     padding: 80px 60px;
-    padding: 0px;
+    padding-right: 0px;
 }
 
 .figure .content {
