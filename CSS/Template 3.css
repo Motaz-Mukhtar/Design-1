@@ -644,7 +644,7 @@ aside .box-container article .content ul li:nth-of-type(8)::before {
 
 
 aside .box-container article .imgae {
-    margin-left: 30px;
+    margin: auto;
 }
 
 aside .box-container article .imgae img {
@@ -671,6 +671,7 @@ aside .box-container article .imgae img {
 /* Start Figure */
 .figure {
     padding: 80px 60px;
+    padding: 0px;
 }
 
 .figure .content {
@@ -931,6 +932,14 @@ aside .box-container article .imgae img {
     line-height: 1.5;
 }
 
+/* 465 */
+
+@media (max-width: 480px) {
+    .contact .content .info-3 input[type = "submit"] {
+            transform: translateX(125px);
+    }
+}
+
 @media (max-width: 480px) {
     .contact {
         text-align: center;
@@ -950,10 +959,10 @@ aside .box-container article .imgae img {
         margin: 0px;
     }
 
-    .contact .content .info-3 input[type = "submit"] {
-        transform: translateX(125px);
+/*     .contact .content .info-3 input[type = "submit"] {
+        margin: auto;
     }
-
+ */
     .contact .content .info-3 p {
         margin: 0px;
     }
@@ -971,6 +980,15 @@ footer .text {
     display: flex;
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .text h5 {
+    display: contents;
+    color: var(--main-color);
+}
+
+footer .text .copyright {
+   display: contents;
 }
 
 footer .text .copyright span {
