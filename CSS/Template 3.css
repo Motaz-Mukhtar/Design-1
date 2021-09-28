@@ -936,7 +936,7 @@ aside .box-container article .imgae img {
 
 @media (max-width: 480px) {
     .contact .content .info-3 input[type = "submit"] {
-            transform: translateX(125px);
+        margin: auto;
     }
 }
 
@@ -952,7 +952,7 @@ aside .box-container article .imgae img {
     .contact .content .info-2 ul {
         width: 270px;
         padding: 0px;
-        margin-left: 10%;
+        margin: auto;
     }
 
     .contact .content .info-3 {
