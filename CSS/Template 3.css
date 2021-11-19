@@ -19,6 +19,11 @@ body {
   padding: 0px;
   margin: 0px;
   max-width: 100%;
+  transition: 1s;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -259,6 +264,21 @@ ul {
   }
 }
 
+/*Start Scroll Button*/
+.scroll {
+    color: white;
+    position: fixed;
+    right: 28px;
+    bottom: 21px;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100;
+    transition: 0.4s;
+    background-color: transparent;
+    z-index: ;
+}
+/*End Scroll Button*/
 /* ########################################################################### */
 
 .foot {
