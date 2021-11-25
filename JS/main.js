@@ -9,15 +9,15 @@ console.log(scroll);
 
 
 
-scroll.onclick = function() {
+scroll.onclick = function () {
     window.scrollTo(0, 0)
 }
 
-if(window.pageYOffset === 0) {
+if (window.pageYOffset === 0) {
     scroll.style.cssText = "display: none; cursor: auto;"
 }
 
-window.onscroll = function() {
+window.onscroll = function () {
     if (window.pageYOffset <= 500) {
         scroll.style.cssText = "opacity: 0; cursor: auto;";
     }
